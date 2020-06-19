@@ -7,39 +7,4 @@ body {
   background: #f3f3f3;
   color: #666;
 }
-h1, h2, h3, h4, h5, h6 {
-  font-family: 'Oswald', sans-serif;
-}
 
-h2 {
-  font-size: 2rem;
-}
-h3 {
-  font-size: 1.6rem;
-}
-
-a:hover, a:focus,
-a:active {
-  color: #487922;
-  text-decoration: none;
-}
-header {
-  background: #487922;
-}
-.top-bar {
-  padding: 0px;
-  font-size: 122px;
-  border-bottom: .4px solid #3b621c;
-  min-height: 40px;
-}
-
-.main-header {
-  padding: 20px 0 25px;
-}
-.site-title {
-  color: #fff;
-}
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}

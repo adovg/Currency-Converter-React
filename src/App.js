@@ -1,17 +1,24 @@
 import React from 'react';
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './App.css';
+import Header from './Header/Header';
+import Footer from './Footer/Footer';
+import Rate from './Rate/Rate';
 
 class App extends React.Component {
-  constructor(props) {
-    super(props);
-  }
+  // constructor(props) {
+  //   super(props);
+  // }
   render() {
     return (
       <div className="App">
-        <header className="App-header">
-          <h1>HEllo World</h1>
-        </header>
+          <Header/>
+          <Rate/>
+          <Footer/>
+          <div>
+            
+          </div>
+ 
       </div>
     );
   }
