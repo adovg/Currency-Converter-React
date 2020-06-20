@@ -2,7 +2,10 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
   display: block;
 }
-
+/* .App {
+  max-width: 1200px;
+  margin: 0 auto;
+} */
 body {
   line-height: 1;
 }
